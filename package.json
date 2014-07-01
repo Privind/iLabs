@@ -2,8 +2,12 @@
   "name": "iLabs",
   "main": "index.html",
   "window": {
-    "toolbar": false,
-    "width": 800,
-    "height": 600
-  }
+    "toolbar": true,
+    "resizable": false,
+    "fullscreen": true,
+    "width": 1200,
+    "height": 700,
+    "position":"center"
+  },
+  "chromium-args" : "--enable-webaudio-input"
 }
