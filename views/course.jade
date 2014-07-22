@@ -1,9 +1,20 @@
-#media-desc.row-top
-  p.
-    #{courseConfig.media.desc}
+#course.col-md-9
+  #media-desc.row-top
+    h4.
+      Media Description
+    p.
+      #{courseConfig.media.desc}
 
-#media.row-media
-  video(width="600", height="280", controls)
-    source(src="#{courseConfig.media.source}", type="#{courseConfig.media.type}")
+  #media.row-media
+    video(width="600", height="280", controls)
+      source(src="#{courseConfig.media.source}", type="#{courseConfig.media.type}")
 
-#course-det.row-course
+  #course-det.row-course
+
+#course.col-md-3
+  #video-pane
+    video(id="videofeed", autoplay="true", width="310px", height="250px")
+
+  #controls
+    select(id="video-list")
+    select(id="audio-list")

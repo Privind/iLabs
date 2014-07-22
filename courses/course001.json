@@ -4,8 +4,15 @@
   "difficulty": 5,
   "media": {
     "type": "video/mp4",
-    "source": "/home/aravindan/Documents/ilabs/media/Butterfly.mp4",
-    "desc": "This is a success"
+    "source": "/home/aravindan/Documents/ilabs/media/car-wash.wmv",
+    "desc": [
+      "This is a success This is a success This is a success This is a success",
+      "This is a success This is a success This is a success This is a success",
+      "This is a success This is a success This is a success This is a success",
+      "This is a success This is a success This is a success This is a success",
+      "This is a success This is a success This is a success This is a success",
+      "This is a success This is a success This is a success This is a success"
+    ]
   },
   "course": {
     "type": "video",

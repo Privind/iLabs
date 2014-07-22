@@ -9,5 +9,5 @@
     "height": 700,
     "position":"center"
   },
-  "chromium-args" : "--enable-webaudio-input"
+  "chromium-args" : "--enable-webaudio-input, --enable-logging"
 }
