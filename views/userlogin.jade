@@ -1,4 +1,6 @@
 #loginDiv.login-div
+  if error
+    p font(color="white") #{error}
   form(id="login-form")
     label(for="username") Username:
     input(type="text", class="login-text", name="username", id="username")
